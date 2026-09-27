@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Parts of Speech">
+  <meta name="description" content="University Parts of Speech notes — prepared from Talha's university notes.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <title>Parts of Speech — Talha's Notes</title>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar glass">
+    <button class="brand" data-route="home" aria-label="Home"><span class="brand-dot"></span><span>Parts of Speech</span></button>
+    <nav class="nav" aria-label="Main navigation">
+      <button data-route="home" class="nav-btn active">Home</button>
+      <button data-route="notes" class="nav-btn">Notes</button>
+      <button data-route="paragraphs" class="nav-btn">Paragraphs</button>
+      <button data-route="quiz" class="nav-btn">Quiz</button>
+    </nav>
+    <button id="themeBtn" class="icon-btn" aria-label="Toggle appearance">◐</button>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="footer glass">
+    <div><strong>Made by Talha.</strong> University grammar notes, organised for quick revision.</div>
+    <div class="footer-meta">Black & white • Offline-ready • GitHub Pages friendly</div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

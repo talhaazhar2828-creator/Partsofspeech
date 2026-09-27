@@ -1,0 +1,10 @@
+{
+  "name":"Parts of Speech — Talha's Notes",
+  "short_name":"Parts of Speech",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#050505",
+  "theme_color":"#000000",
+  "description":"University grammar notes prepared from Talha's handwritten notes.",
+  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
